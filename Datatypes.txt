@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"Char bytes :" << sizeof (char) <<"byte"<<endl;
+    cout<<"integer bytes :" <<sizeof (int) <<"bytes"<<endl;
+    cout<<"float bytes :" <<sizeof (float) <<"bytes"<<endl;
+    cout<<"double bytes :" <<sizeof(double) <<"bytes"<<endl;
+    cout<<"string bytes :" <<sizeof(string) <<"bytes"<<endl;
+    cout<<sizeof(long long int);
+
+}
